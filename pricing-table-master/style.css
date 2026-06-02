@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+    height: 100vh;
+    background:#f7f7f7;
+    }
+
+    .author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+    }
+
+    .author-info a {
+    text-decoration: none;
+    }
+
+    .container{
+        place-self: center;
+        padding: 80px 20px;
+    }
+
+    /* .header{
+        background-image: url(resources/bg-pattern.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 20%;
+        backdrop-filter: blur(1px);
+        justify-content: center;
+        margin: auto;
+        padding: auto;
+        text-align: center;
+        margin-bottom: 50px;
+    } */
+
+   .pricing-card{
+        padding:80px 20px;
+    }
+
+    .header{
+        background-image: url(resources/bg-pattern.png);
+        text-align:center;
+        margin-bottom:50px;
+    }
+
+    .header h2{
+        font-size:40px;
+        margin-bottom:10px;
+    }
+
+    .header p{
+        max-width:390px;
+        margin:auto;
+        color:#666;
+    }
+
+    .table-content{
+        max-width:1200px;
+        margin:auto;
+    }
+
+    .table-info{
+        width:100%;
+        border-collapse:collapse;
+        min-width:900px;
+        background:white;
+    }
+
+    .table-info th,
+    .table-info td{
+        padding:20px;
+        text-align:center;
+        border-bottom:1px solid #e5e7eb;
+    }
+
+    thead th{
+        height:220px;
+        vertical-align:middle;
+    }
+
+    .name{
+        color:#3046d3;
+        display:block;
+        margin-bottom:10px;
+    } 
+
+    .month{
+        color:gray;
+        display:block;
+        margin-bottom:10px;
+    }
+
+    thead h3{
+        font-size:50px;
+        font-weight: bolder;
+        margin-bottom:10px;
+    }
+
+    .list{
+        display:inline-block;
+        background:#3046d3;
+        color: #e5e7eb;
+        padding:6px 18px;
+        border-radius:70px;
+        margin-bottom:15px;
+        font-size:14px;
+    }
+    .btn{
+        border: none;
+        /* position: relative; */
+    }
+    .btn-p{
+        background-color: rgba(218, 175, 32, 0.904);
+        border: none;
+    }
+    .arrow{
+        vertical-align:middle;
+    }
